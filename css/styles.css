@@ -1,0 +1,94 @@
+.btn-primary {
+	background: #4F9F64;
+	border-color: #4F9F64;
+}
+
+.btn-primary:hover {
+	background: #154F24;
+}
+
+.jumbotron {
+	background: url(../img/motor.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	border-bottom: 5px #f4f4f4;
+}
+
+.jumbotron h1, .jumbotron h2 {
+	text-shadow: 2px 2px #000000;
+}
+
+.jumbotron-main {
+	padding: 0 60px 40px 60px;
+}
+
+.jumbotron-main h1 {
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+
+.jumbotron-sub {
+	padding: 0 60px 40px 60px;
+}
+
+.jumbotron-sub h1 {
+	padding-top: 90px;
+}
+
+.jumbotron h2 {
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.navbar {
+	margin: 0;
+	color: #fff;
+}
+
+.navbar a {
+	color: #fff;
+	margin-bottom: 3px;
+}
+
+.navbar a:hover {
+	background: none !important;
+	border-bottom: #fff 3px solid;
+	margin-bottom: 0;
+}
+
+.well {
+	text-align: center;
+}
+
+.well img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.section-a {
+	background: #4F9F64;
+	color: #fff;
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 30px;
+}
+
+.section-a h2 {
+	font-size: 45px;
+}
+
+.img-full {
+	width: 100%;
+}
+
+footer {
+	background: #4F9F64;
+	text-align: center;
+	color: #fff;
+}
+
+footer p {
+	padding: 10px;
+}
