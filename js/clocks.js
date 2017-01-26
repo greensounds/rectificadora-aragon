@@ -1,3 +1,4 @@
+//Prueba
 window.onload=function(){
     //Reloj para Contralor de IFETEL
     var clockA = document.getElementById("countdownPageA")
