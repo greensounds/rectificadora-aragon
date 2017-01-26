@@ -12,9 +12,9 @@ window.onload=function(){
     setInterval(function(){
         clockB.innerHTML = countdown(targetDateB).toString();
     }, 1000);
-    //Reloj para Ley de Unidad de Medida
+    //Reloj para Integrante de la Junta del INEGI
     var clockC = document.getElementById("countdownPageC")
-    var targetDateC = new Date(2016, 04, 26); // May 26, 2016;
+    var targetDateC = new Date(2016, 11, 31); // Dic 31 2016;
     setInterval(function(){
         clockC.innerHTML = countdown(targetDateC).toString();
     }, 1000);
@@ -194,5 +194,19 @@ var clockV = document.getElementById("countdownPageV")
     var targetDateA9 = new Date(2013, 11, 10); // Dec 10 2013
     setInterval(function(){
         clockA9.innerHTML = countdown(targetDateA9).toString();
+    }, 1000);
+
+    //Reloj para Integrante de la Junta del Banco de México
+    var clockA10 = document.getElementById("countdownPageA10")
+    var targetDateA10 = new Date(2016, 11, 31); // Dic 31 2016;
+    setInterval(function(){
+        clockC.innerHTML = countdown(targetDateA10).toString();
+    }, 1000);}
+
+    //Reloj para Integrante de la Junta del Banco de México
+    var clockA11 = document.getElementById("countdownPageA11")
+    var targetDateA11 = new Date(2016, 11, 31); // Dic 31 2016;
+    setInterval(function(){
+        clockC.innerHTML = countdown(targetDateA11).toString();
     }, 1000);
 }
