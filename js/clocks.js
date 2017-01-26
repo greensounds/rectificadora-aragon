@@ -208,3 +208,4 @@ var clockV = document.getElementById("countdownPageV")
     setInterval(function(){
         clockC.innerHTML = countdown(targetDateA11).toString();
     }, 1000);
+}
