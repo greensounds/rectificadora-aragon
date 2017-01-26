@@ -1,4 +1,5 @@
-//Prueba-3
+//Violometro Actualizado al 26 de enero de 2016
+
 window.onload=function(){
     //Reloj para Contralor de IFETEL
     var clockA = document.getElementById("countdownPageA")
@@ -140,6 +141,48 @@ var clockV = document.getElementById("countdownPageV")
     }, 1000);
 
     //Reloj para "Propaganda gubernamental(segunda violaciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n)"
+    var clockA10 = document.getElementById("countdownPageA10")
+    var targetDateA10 = new Date(2016, 11, 31); // Dic 31, 2016;
+    setInterval(function(){
+        clockA10.innerHTML = countdown(targetDateA10).toString();
+    }, 1000);
+
+    //Reloj para "Propaganda gubernamental(segunda violaciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n)"
+    var clockA11 = document.getElementById("countdownPageA11")
+    var targetDateA11 = new Date(2016, 11, 31); // Dic 31, 2016;
+    setInterval(function(){
+        clockA11.innerHTML = countdown(targetDateA11).toString();
+    }, 1000);
+
+    //Reloj para "Ley General de Asentamientos humanos"
+    var clockA12 = document.getElementById("countdownPageA12")
+    var targetDateA12 = new Date(2017, 03, 12); // Abril 12, 2017;
+    setInterval(function(){
+        clockA12.innerHTML = countdown(targetDateA12).toString();
+    }, 1000);
+
+    //Reloj para "Ley General de Asentamientos humanos"
+    var clockA13 = document.getElementById("countdownPageA13")
+    var targetDateA13 = new Date(2017, 03, 04); // Abril 04, 2017;
+    setInterval(function(){
+        clockA13.innerHTML = countdown(targetDateA13).toString();
+    }, 1000);
+
+    //Reloj para "Ley General de Asentamientos humanos"
+    var clockA14 = document.getElementById("countdownPageA14")
+    var targetDateA14 = new Date(2017, 08, 30); // Sept 30, 2017;
+    setInterval(function(){
+        clockA14.innerHTML = countdown(targetDateA14).toString();
+    }, 1000);
+
+    //Reloj para "Ley General de Asentamientos humanos"
+    var clockA15 = document.getElementById("countdownPageA15")
+    var targetDateA15 = new Date(2018, 00, 01); // Jan 01, 2018;
+    setInterval(function(){
+        clockA15.innerHTML = countdown(targetDateA15).toString();
+    }, 1000);
+
+    //Reloj para "Propaganda gubernamental(segunda violaciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n)"
     var clockA1 = document.getElementById("countdownPageA1")
     var targetDateA1 = new Date(2013, 01, 26); // February 26, 2013;
     setInterval(function(){
@@ -194,19 +237,5 @@ var clockV = document.getElementById("countdownPageV")
     var targetDateA9 = new Date(2013, 11, 10); // Dec 10 2013
     setInterval(function(){
         clockA9.innerHTML = countdown(targetDateA9).toString();
-    }, 1000);
-
-    //Reloj para Integrante de la Junta del Banco de México
-    var clockA10 = document.getElementById("countdownPageA10")
-    var targetDateA10 = new Date(2016, 11, 31); // Dic 31 2016;
-    setInterval(function(){
-        clockC.innerHTML = countdown(targetDateA10).toString();
-    }, 1000);}
-
-    //Reloj para Integrante de la Junta del Banco de México
-    var clockA11 = document.getElementById("countdownPageA11")
-    var targetDateA11 = new Date(2016, 11, 31); // Dic 31 2016;
-    setInterval(function(){
-        clockC.innerHTML = countdown(targetDateA11).toString();
     }, 1000);
 }
