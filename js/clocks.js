@@ -57,7 +57,7 @@ window.onload=function(){
     }, 1000);
     //Reloj Justicia Laboral
     var clockA18 = document.getElementById("countdownPageA18")
-    var targetDateL = new Date(2018, 01, 25); // Febrero 25, 2018;
+    var targetDateA18 = new Date(2018, 01, 25); // Febrero 25, 2018;
     setInterval(function(){
         clockA18.innerHTML = countdown(targetDateA18).toString();
     }, 1000);
