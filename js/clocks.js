@@ -1,4 +1,4 @@
-//Violometro Actualizado al 26 de enero de 2016
+//Violometro Actualizado al 28 de febrero de 2016
 
 window.onload=function(){
     //Reloj para Contralor de IFETEL
@@ -55,11 +55,11 @@ window.onload=function(){
     setInterval(function(){
         clockK.innerHTML = countdown(targetDateK).toString();
     }, 1000);
-    //Reloj para Magistrado del Justicia Laboral
-    var clockL = document.getElementById("countdownPageL")
-    var targetDateL = new Date(2017, 01, 25); // Febrero 25, 2018;
+    //Reloj Justicia Laboral
+    var clockA18 = document.getElementById("countdownPageA18")
+    var targetDateL = new Date(2018, 01, 25); // Febrero 25, 2018;
     setInterval(function(){
-        clockL.innerHTML = countdown(targetDateL).toString();
+        clockA18.innerHTML = countdown(targetDateA18).toString();
     }, 1000);
     //Reloj para Ley del artÃƒÆ’Ã‚Â­culo 33, extranjeros:
     var clockM = document.getElementById("countdownPageM")
