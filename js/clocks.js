@@ -232,6 +232,13 @@ var clockV = document.getElementById("countdownPageV")
         clockA8.innerHTML = countdown(targetDateA8).toString();
     }, 1000);
 
+    //Reloj para Justicia Laboral
+    var clockB1 = document.getElementById("countdownPageB1")
+    var targetDateB1 = new Date(2018, 02, 25); // Sept 13, 2015;
+    setInterval(function(){
+        clockB1.innerHTML = countdown(targetDateB1).toString();
+    }, 1000);
+
     //Reloj para Contralor COFECE
     var clockA9 = document.getElementById("countdownPageA9")
     var targetDateA9 = new Date(2013, 11, 10); // Dec 10 2013
