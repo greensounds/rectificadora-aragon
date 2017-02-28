@@ -55,9 +55,9 @@ window.onload=function(){
     setInterval(function(){
         clockK.innerHTML = countdown(targetDateK).toString();
     }, 1000);
-    //Reloj para Magistrado del TEPJF
+    //Reloj para Magistrado del Justicia Laboral
     var clockL = document.getElementById("countdownPageL")
-    var targetDateL = new Date(2015, 03, 20); // Apr 20, 2015;
+    var targetDateL = new Date(2018, 01, 25); // Febrero 25, 2018;
     setInterval(function(){
         clockL.innerHTML = countdown(targetDateL).toString();
     }, 1000);
