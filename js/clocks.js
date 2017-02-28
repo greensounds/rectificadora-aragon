@@ -225,18 +225,11 @@ var clockV = document.getElementById("countdownPageV")
     setInterval(function(){
         clockA7.innerHTML = countdown(targetDateA7).toString();
     }, 1000);
-     //Reloj para Magistrados de Salas Regionales del TEPJF
+     //Reloj justicia social
     var clockA8 = document.getElementById("countdownPageA8")
-    var targetDateA8 = new Date(2016, 02, 08); // Sept 13, 2015;
+    var targetDateA8 = new Date(2018, 01, 25); // Feb 25, 2018;
     setInterval(function(){
         clockA8.innerHTML = countdown(targetDateA8).toString();
-    }, 1000);
-
-    //Reloj para Justicia Laboral
-    var clockB1 = document.getElementById("countdownPageB1")
-    var targetDateB1 = new Date(2018, 02, 25); // Sept 13, 2015;
-    setInterval(function(){
-        clockB1.innerHTML = countdown(targetDateB1).toString();
     }, 1000);
 
     //Reloj para Contralor COFECE
