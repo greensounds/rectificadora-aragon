@@ -225,7 +225,7 @@ var clockV = document.getElementById("countdownPageV")
     setInterval(function(){
         clockA7.innerHTML = countdown(targetDateA7).toString();
     }, 1000);
-     //Reloj justicia social
+     //Reloj Justicia Social
     var clockA8 = document.getElementById("countdownPageA8")
     var targetDateA8 = new Date(2018, 01, 25); // Feb 25, 2018;
     setInterval(function(){
