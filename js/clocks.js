@@ -56,10 +56,10 @@ window.onload=function(){
         clockK.innerHTML = countdown(targetDateK).toString();
     }, 1000);
     //Reloj Justicia Laboral
-    var clockA18 = document.getElementById("countdownPageA18")
-    var targetDateA18 = new Date(2018, 01, 25); // Febrero 25, 2018;
+    var clockL = document.getElementById("countdownPageL")
+    var targetDateL = new Date(2018, 01, 25); // Febrero 25, 2018;
     setInterval(function(){
-        clockA18.innerHTML = countdown(targetDateA18).toString();
+        clockL.innerHTML = countdown(targetDateL).toString();
     }, 1000);
     //Reloj para Ley del artÃƒÆ’Ã‚Â­culo 33, extranjeros:
     var clockM = document.getElementById("countdownPageM")
